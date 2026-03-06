@@ -1,0 +1,19 @@
+# Environments
+.env
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Large Datasets & Videos
+data/
+*.mp4
+*.avi
+*.csv
+
+# Model Weights
+*.pth
+*.onnx
+*.h5
