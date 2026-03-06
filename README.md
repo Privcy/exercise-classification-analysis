@@ -4,26 +4,22 @@
 This repository contains the code and methodology for analyzing and classifying exercise forms—specifically squats and deadlifts. The project leverages advanced human pose estimation models to extract skeletal keypoints from video data, which are then processed as multivariate time-series data and classified using the ROCKET (Radom Convolutional Kernel Transform) algorithm.
 
 ## Tech Stack
-- **Pose Estimation: ** OpenPose, RTMPose, MediaPipe
+- **Pose Estimation:** OpenPose, RTMPose, MediaPipe
 - **Time-Series Classification:** ROCKET (via 'sktime')
 - **Data Processing:** python, pandas, numpy, opencv
-- **Environment: ** Pycharm (Jupyter notebooks works too)
+- **Environment:** Pycharm (Jupyter notebooks works too)
 
 
 ## Setup and Installation
-  1. cloning
-_git clone [https://github.com/Privcy/exercise-classification-analysis.git](https://github.com/Privcy/exercise-classification-analysis.git)
+  1. cloning: _git clone [https://github.com/Privcy/exercise-classification-analysis.git](https://github.com/Privcy/exercise-classification-analysis.git)
 cd exercise-classification-analysis_
 
-  2. create virtual environment
-_python -m venv venv_
+  2. create virtual environment: _python -m venv venv_
 
-  3. activating the enviroment
-_venv\Scripts\activate_
- (however in my case i used pycharm so _conda activate BodyMTS_ was mine)
+  3. activating the enviroment: _venv\Scripts\activate_
+  (however in my case i used pycharm so _conda activate BodyMTS_ was mine)
 
-  4. install dependencies
-_pip install -r requirements.txt_
+  4. installing dependencies: _pip install -r requirements.txt_
 
 ## Methodology
   1. Data Collection: video capture of subjects performing target exercises (shot on iPhone 12 pro max).
